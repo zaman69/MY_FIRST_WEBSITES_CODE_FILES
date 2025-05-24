@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    
+    
+
+}
+body{
+    min-height: 100vh;
+    background: url(contact.jpg);
+   
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info{
+    color: rgb(0, 0, 0);
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 5px;
+    font-size: 25px;
+
+
+}
+.contact-info i{
+    margin-right: 20px;
+    font-size: 25px;
+
+}
+
+.contact-info {
+    flex: 1;
+
+}
+.contact-section .contact-info .color{
+    color: rgb(223, 9, 9);
+}
+
+@media  screen and (max-width:950px){
+    .contact-section{
+        flex-direction: column;
+
+    }
+    .contact-info {
+    
+     font-size: 25px;
+    }
+    
+
+    .contact-form .text-box{
+        width: 100%;
+    }
+    
+    
+}
